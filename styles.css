@@ -1,0 +1,89 @@
+/* Define CSS variables for colors */
+:root {
+  --golden-color: #FFCC00; /* Gold with a bit of yellow */
+  --border-color-header: #FF5733; /* Orange-red for header */
+  --border-color-nav: #33FF57; /* Green for nav */
+  --border-color-main: #3498DB; /* Blue for main content */
+  --border-color-aside: #F39C12; /* Yellow for aside */
+  --border-color-footer: #9B59B6; /* Purple for footer */
+  --link-color: white; 
+  --body-color: #f4f4f4; 
+  --nav-background-color: #2c3e50; 
+  --nav-color: #white; 
+  
+}
+
+/* General Body Style */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color:  var(--body-color);
+}
+
+/* Header Style */
+.header {
+  padding: 20px;
+  background-color: var(--golden-color);
+  text-align: center;
+  border: 5px solid var(--border-color-header);
+}
+
+/* Navigation Style */
+.nav {
+  padding: 15px;
+  background-color: var(--nav-background-color);
+  color: var(--nav-color);
+  text-align: center;
+  margin-top: 20px;
+  border: 5px solid var(--border-color-nav);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: var(--link-color);;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Main Content Style */
+.main {
+  padding: 20px;
+  background-color: #ecf0f1;
+  border: 5px solid var(--border-color-main);
+  margin-top: 20px;
+}
+
+/* Aside Style */
+.aside {
+  padding: 15px;
+  background-color: #f9e79f;
+  border: 5px solid var(--border-color-aside);
+  margin-top: 20px;
+}
+
+.aside a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Footer Style */
+.footer {
+  padding: 20px;
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  border: 5px solid var(--border-color-footer);
+}
